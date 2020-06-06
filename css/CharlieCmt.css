@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+}
+
+.checked {
+    color: gold;
+}
+
+.bookRating {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cmter {
+    margin-top: 5px;
+    font-family: Arial;
+}
+
+.cmt {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.cmtContainer {
+    width: 50%;
+    display: block;
+}
+
+.avtContainer {
+    display: inline-block;
+    width: 4rem;
+    margin-right: 0.8rem;
+    text-align: center;
+}
+
+.info {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.cmtArea {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.cmtMain {
+    display: inline-block;
+}
