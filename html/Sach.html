@@ -8,9 +8,57 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/Sach.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/heading.css">
 </head>
 
 <body>
+    <header>
+        <div id="heading">
+            <div class="nav-left">
+                <h3 style="cursor: pointer; color: whitesmoke ;padding: 10px 0 0 20px ;" onclick="returnHome()"><i class="fas fa-bars"></i> Booknet</h3>
+            </div>
+            <div class="nav-right">
+                <input type="text" placeholder=" Search..." style="    
+                font-size: 14px;
+                line-height: 1.42857143;
+                color: #555">
+            </div>
+        </div>
+
+        <div class="navbar">
+            <div class="head-container">
+                <div id="heading-button" class='dropbox' onclick="topFunction()" title="To bottom">
+                    <div class="dropbtn">
+                        About us
+                    </div>
+                </div>
+                <div class="dropbox">
+                    <div class="dropbtn">Novel</div>
+                    <div class="dropdown-content">
+                        <a href="#">Detective</a>
+                        <a href="#">Romantic</a>
+                    </div>
+                </div>
+
+                <div class="dropbox">
+                    <div class="dropbtn">Truyện ngắn</div>
+                    <div class="dropdown-content">
+                        <a href="#">Children</a>
+                        <a href="#">Romantic</a>
+                    </div>
+                </div>
+
+                <div class="dropbox">
+                    <div class="dropbtn">Self-helped</div>
+                    <div class="dropdown-content">
+                        <a href="#">Inspring</a>
+                        <a href="#">Life skills</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <div id="page">
         <div class="book-container">
             <h2>Children</h2>
@@ -414,6 +462,23 @@
         </div>
 
     </div>
+    <footer role="contentinfo ">
+        <div class="container " style="font-family: 'Ubuntu', sans-serif; ">           
+                <div class="whitebox "><img src="logo.png " style="width: 72px; height: 72px ">
+                   <h3> Booknet </h3>
+                    Brings you to a network where people love reading books and want to share what they read to everyone.
+                </div>                                                      
+                        <div class="menu-footer ">
+                            <ul>
+                                <li class="widget-title ">Contact us</li>
+                                <li class="footer-item ">Nam Anh Nguyễn</li>
+                                <li class="footer-item ">NG.Hải</li>
+                                <li class="footer-item ">Hoàng Ân</li>
+                            </ul></div>                     
+                
+            </div>
+    </footer>
+
 
     <script src="/js/Sach.js "></script>
 </body>
