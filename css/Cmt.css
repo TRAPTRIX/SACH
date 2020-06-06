@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+}
+
+.checked {
+    color: gold;
+}
+
+.bookRating {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.cmter {
+    margin-top: 5px;
+    font-family: Arial;
+}
+
+.cmt {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.cmtContainer {
+    width: 50%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.avtContainer {
+    display: inline-block;
+    width: 50px;
+    margin-right: 0.8rem;
+}
+
+.info {
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.cmtArea {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.cmtMain {
+    display: inline-block;
+}
+
+.cmter a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.cmter a:hover {
+    text-decoration: underline;
+}
+
+.avtContainer img {
+    border: 2px black solid;
+}
+
+.btn {
+    border: 2px solid #333333;
+    background-color: white;
+    color: #333333;
+    padding: 7px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.reviewArea {
+    margin-bottom: 10px;
+}
+
+#review {
+    display: inline-block;
+}
+
+.rating {
+    display: block;
+    font-size: 25px;
+    cursor: default;
+}
+
+#anonymous {
+    width: 51px;
+    height: 70px;
+}
+
+.reviewMain {
+    display: inline-block;
+}
+
+.rating span {
+    cursor: pointer;
+}
+
+textarea {
+    font-family: 'Times New Roman';
+}
