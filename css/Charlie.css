@@ -1,0 +1,25 @@
+.cover {
+    display: inline-block;
+}
+
+.page {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.information {
+    display: inline-block;
+    width: 50%;
+    margin-left: 30px;
+}
+
+.name {
+    text-align: center;
+    top: 0px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: Arial;
+    margin-bottom: 10px;
+}
